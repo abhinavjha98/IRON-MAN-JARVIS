@@ -13,8 +13,8 @@ except RuntimeError:
 
 voices = engine.getProperty('voices')
 
-# for voice in voices:
-# 	print(voice.id)
+for voice in voices:
+	print(voice.id)
 
 engine.setProperty('voice','HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0')
 
